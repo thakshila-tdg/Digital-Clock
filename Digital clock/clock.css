@@ -1,0 +1,60 @@
+/* General body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('9.avif') no-repeat center center fixed; /* Add image */
+    background-size: cover; /* Make image cover entire background */
+    color: #fff;
+}
+
+/* Styling for the clock container */
+.clock {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for contrast */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border: 10px solid white; /* Adds a white border */
+}
+
+/* Inside clock container */
+.inside {
+    margin: 10px;
+}
+
+/* Styling for the content */
+.content p {
+    margin: 10px 0;
+    font-size: 3rem;
+}
+
+/* Days styling */
+.days span {
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+/* Date styling */
+#date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+/* Calendar icon styling */
+#cal img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Time styling */
+.text {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
